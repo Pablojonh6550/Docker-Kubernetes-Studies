@@ -3,7 +3,8 @@
 - `docker pull {nome_do_pacote}` : faz o download do pacote;
 - `docker run {nome_do_pacote}` : executa o pacote ao qual foi referenciado;
 - `docker ps` ou `docker container ls` : lista todos os containers ativos;
-- `docker stop {id ou nome_do_pacote}` : usado para para a execução do container;
+- `docker start {id_do_container}` : usado para iniciar um container pausado ou existente;
+- `docker stop {id_do_container ou nome_do_pacote}` : usado para para a execução do container;
 
 # Prefixos
 
